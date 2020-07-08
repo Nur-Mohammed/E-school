@@ -1,0 +1,225 @@
+/* preset style */
+/* =========================== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #6C6B6B;
+}
+
+a {
+    color: #6C6B6B;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: #21B573;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    color: #137549;
+    background-color: #1961414b;
+}
+
+
+/* Style Header Section */
+/* ========================================= */
+header {
+    background-color: #F0FFF0;
+}
+
+nav {
+    background-color: #F0FFF0;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.imgLogo {
+    width: 200px;
+}
+
+nav ul li a.nav-link {
+    color: #000;
+}
+
+nav ul li a.nav-link:hover {
+    color: #21B573;
+}
+
+nav ul li a.signInBtn {
+    background-color: #21B573;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 30px;
+    width: 110px;
+    transition: all 0.4s ease;
+}
+
+nav ul li a.signInBtn:hover {
+    color: #137549;
+    background-color: #1961414b;
+}
+
+.fa-bars {
+    border: 1px solid #808080d2;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: gray;
+}
+
+header .portfolio h1 {
+    font-size: 48px;
+    color: #000;
+    font-weight: 600;
+}
+
+header .portfolio h1 .greenMark {
+    color: #21B573;
+
+}
+
+header .portfolio .redPara {
+    color: #FD511A;
+}
+
+header .portfolio .btn {
+    background-color: #21B573;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+
+header .portfolio .btn:hover {
+    color: #137549;
+    background-color: #1961414b;
+
+}
+
+/* responsve for header section */
+
+@media(max-width: 1000px) {
+    header .portfolio h1 {
+        font-size: 35px;
+        color: #000;
+        font-weight: 600;
+    }
+
+}
+
+/* Style Card-Deck-1 Section */
+/* ========================================= */
+#card-deck-1 .card {
+    border: none;
+    background-color: #F0FFF0;
+    height: 265px;
+    border-radius: 10px;
+}
+
+#card-deck-1 .card:hover {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 5px 5px 10px lightgray;
+    background-color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    color: #6C6B6B;
+}
+
+#card-deck-1 .card img {
+    width: 66px;
+    height: 70px;
+}
+
+#card-deck-1 .card .card-body {
+    padding-top: 2rem;
+}
+
+#card-deck-1 .card h5 {
+    color: #413960;
+    font-size: 24px;
+}
+
+/* Style Card-Deck-2 Section */
+/* ========================================= */
+#card-deck-2 .card {
+    border-radius: 18px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+#card-deck-2 .card h5 {
+    color: #413960;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#card-deck-2 .card .card-footer {
+    border: none;
+    background-color: #fff;
+    border-radius: 18px;
+}
+
+
+#card-deck-2 img.icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Style Testimonial Section */
+/* ========================================= */
+#testimonial h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #000;
+}
+
+#testimonial .content-wrapper {
+    width: 75%;
+    margin: 1rem auto;
+}
+
+/* responsve for testimonial section */
+@media(max-width:700px) {
+    #testimonial h1 {
+        font-weight: bold;
+        font-size: 30px;
+        color: #000;
+    }
+}
+
+
+/* Style Footer Section */
+/* ========================================= */
+#footer {
+    background-color: #282531;
+    color: #fff;
+
+}
+
+#footer a span {
+    display: block;
+}
+
+#footer a {
+    color: #fff;
+    font-weight: 200;
+    line-height: 2;
+    font-size: 14px;
+
+}
+
+#footer a:hover {
+    color: lightgray;
+}
